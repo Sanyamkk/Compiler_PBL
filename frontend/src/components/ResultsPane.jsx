@@ -20,7 +20,7 @@ function ResultsPane({ results }) {
            {/* Show success when no errors */}
            {(!results.errors || results.errors.length === 0) && (
              <div className="section success" style={{color: '#4ade80'}}>
-               <h3>✅ Compilation Successful</h3>
+               <h3>Compilation Successful</h3>
              </div>
            )}
            
